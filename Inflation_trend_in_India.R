@@ -5,7 +5,7 @@ library(ggplot2)
 library(zoo)
 library(ggtext)
 
-inflation_data <- read_csv("E:/Aadikartikey/RStudio/API_NY.GDP.DEFL.KD.ZG_DS2_en_csv_v2_145.csv", skip = 4)
+inflation_data <- read_csv("https://github.com/SigmaGyaat706/Inflation-trend-analysis/blob/main/API_NY.GDP.DEFL.KD.ZG_DS2_en_csv_v2_145.csv", skip = 4)
 
 
 inflation_data <- inflation_data%>%
